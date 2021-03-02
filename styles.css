@@ -1,0 +1,50 @@
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#countries{
+    white-space: pre-wrap;
+}
+
+#search-container, #header, #errormessage {
+    text-align: center;
+}
+
+input{
+    background: url("assets/iconfinder_icon-111-search_314807.png") top right   no-repeat;
+    background-size: 32px 32px;
+    height:32px;
+    width:175px;
+    padding-left:25px;
+    border-radius: 4px;
+    border-width: 1px;
+}
+#search-button{
+    color: white;
+    background-color: #66ad57;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 4px;
+    background-size: 32px 32px;
+    height:37px;
+    width:75px;
+}
+#countriesWrapper{
+    width: 600px;
+    margin: 20px auto;
+    padding:20px
+}
+#countries, #errormessage{
+    font-family: 'Roboto', sans-serif;
+}
+
+#logo{
+    background: url("https://media.giphy.com/media/XZTfDO6EuHYnntDBVB/giphy.gif")center  no-repeat;
+    background-size: 100px 100px;
+    margin:auto;
+    height:100px;
+    width:100px;
+}
+

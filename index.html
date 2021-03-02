@@ -1,10 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+    </style>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Country Information App</title>
 </head>
 <body>
+<div id="logo"></div>
+<div id="header"><h1>Let's search some country information</h1></div>
+<div id="search-container">
+    <input id="search-bar" type="text" placeholder="Country..."/>
+    <button id="search-button" type="button">
+        Search
+    </button>
+</div>
 
+<div id="errormessage"></div>
+<div id="countriesWrapper">
+<div id="countries"></div>
+</div>
+<script src="./node_modules/axios/dist/axios.min.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
