@@ -9,6 +9,12 @@
     <title>Search Country Information</title>
 </head>
 <body>
+<div id="navbar">
+
+    <div><a id="navbar-link" href="index.html">Country</a></div>
+    <div><a id="navbar-link" href="regions.html">Regions</a></div>
+
+</div>
 <div id="logo"></div>
 <div id="header"><h1>Let's search some country information</h1></div>
 <div id="search-container">
@@ -26,3 +32,11 @@
 <script src="main.js"></script>
 </body>
 </html>
+
+<script>
+    // When the user clicks on div, open the popup
+    function myFunction() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
+    }
+</script>
